@@ -1,0 +1,23 @@
+*{
+margin: 0;
+border: 0;
+}
+
+html, body{
+height: 100%;
+width: 100%;
+}
+
+body{
+background-color: #190202;
+}
+
+#mla {
+width: 1000px;
+margin-right: auto;
+margin-left: auto;
+height: 1000px;
+margin-top: auto;
+margin-bottom: auto;
+background-color: #FDFDFD;
+}

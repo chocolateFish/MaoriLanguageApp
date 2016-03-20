@@ -1,0 +1,88 @@
+ /* 
+ CSS for flashcards feature
+*/
+
+#cards-content{
+height: 870px;
+width: 600px;
+float: left;
+} 
+#cardControls {
+height: 870px;
+padding-top: 150px;
+}
+
+#cardControls input{
+display: block;
+height: 2em;
+width: 100px;
+padding: 0.5em;
+margin: 0 15px 35px 35px;
+background-color: #F5F5F5;
+border-bottom: solid 1px #A9A9F5;
+border-right: solid 1px #A9A9F5;
+}
+
+#showImageCheck{
+display:inline;
+margin-left: 1em;
+height: 0.8em;
+}
+#cards-content label {
+font-family: Arial;
+font-size: 0.8em;
+}
+
+#theCard {
+height: 298px;
+width: 448px;
+margin-left: auto;
+margin-right: auto;
+border: solid 1px black;
+background-color: white;
+}
+
+#theCard img {
+height: 290px;
+width: 440px;
+padding: 4px;
+}
+
+#cards-content p, h1, h3, ul{
+font-family: Arial, san-serif;
+}
+
+#cards-content h3{
+padding-top: 2em;
+padding-bottom:1em;
+margin-left: 75px;
+}
+
+#cards-content p, ul{
+padding-top: 0.3em;
+margin-left: 75px;
+font-size: 1em;
+}
+
+#theCard h1{
+font-family: Georgia, serif;
+padding-top:100px;
+padding-bottom:125px;
+text-align: center;
+font-size: 40px;
+}
+
+#theCard p{
+display: block;
+float: left;
+font-family: Georgia, serif;
+font-size: 0.8em;
+}
+
+#deckLocation {
+display:inline;
+font-weight: bold;
+padding-left: 11em;
+padding-right: 5em;
+}
+

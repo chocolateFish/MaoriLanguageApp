@@ -1,0 +1,73 @@
+ /* 
+ CSS for quiz feature
+*/
+#test-content{
+width: 735px;
+height: 230px;
+float: left;
+margin-right: 15px;
+} 
+#test-content p, h3, ul{
+font-family: Arial, san-serif;
+margin-left: 75px;
+}
+
+#test-content h3{
+padding-top: 2em;
+padding-bottom:1em;
+}
+
+#test-content p, ul{
+padding-top: 0.3em;
+font-size: 1em;
+}
+
+#testControls {
+margin-left: 65px;
+}
+
+#testControls input{
+display: inline;
+height: 2.5em;
+width: 200px;
+padding: 0.5em;
+margin: 35px 30px;
+background-color: #F5F5F5;
+border-bottom: solid 1px #A9A9F5;
+border-right: solid 1px #A9A9F5;
+}
+
+#test {
+width: 750px;
+height: 640px;
+background-color: #FDFDFD;
+overflow: scroll;
+}
+
+#test ol {
+font-family: Arial, san-serif;
+padding-top: 0.3em;
+font-size: 1em;
+margin-left: 75px;
+}
+
+
+#clearBtn, #submitBtn{
+display: inline;
+height: 2.5em;
+width: 200px;
+padding: 0.5em;
+margin: 35px 30px;
+background-color: #F5F5F5;
+border-bottom: solid 1px #A9A9F5;
+border-right: solid 1px #A9A9F5;
+}
+
+#results p{
+font-family: Arial, san-serif;
+padding-top: 0.3em;
+font-size: 1em;
+margin-left: 75px;
+}
+
+

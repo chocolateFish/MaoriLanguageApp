@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+    <head>
+    <!-- load libraries and stylesheets, and then start our application.-->
+    <title>Maori Language App</title>
+
+    <!-- stylesheets  -->
+    <link href="css/mla.css" rel="stylesheet" type="text/css" />
+    <link href="css/mla.shell.css" rel="stylesheet" type="text/css" />
+    <link href="css/mla.vocabBuilder.css" rel="stylesheet" type="text/css" />
+    <link href="css/mla.flashcards.css" rel="stylesheet" type="text/css" /> 
+
+    <link href="css/mla.quiz.css" rel="stylesheet" type="text/css" />
+    <!-- j-query -->
+    <script src="js/jq/jquery-1.11.1.js" ></script>
+
+    <!-- my javascript -->
+    <!-- JavaScript libraries ordered by depth of namespace- namespace object(mla) declared before its children(eg mla.shell). -->
+    <script src="js/mla.js" ></script>
+    <script src="js/mla.shell.js"></script>
+    <script src="js/mla.vocabModel.js"></script>
+    <script src="js/mla.vocabBuilder.js"></script>
+    <script src="js/mla.flashcards.js"></script>
+    <!--<script src="js/mla.flashcardsAlt2.js"></script>-->
+    <script src="js/mla.quiz.js"></script>
+    <!--<script src="js/quizBackup.js"></script>-->
+    <script>
+        $(function () {
+            "use strict";
+            mla.initModule($('#mla'));
+        });
+    </script>
+</head>
+<body>
+    <div id="mla"></div>
+</body>
+</html>

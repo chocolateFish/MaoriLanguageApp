@@ -1,0 +1,75 @@
+/*stylesheet for the vocabBuilder feature
+*/
+#allVocabsText, #flashcardsDiv, #QuizDiv {
+width: 750px;
+height: 870px;
+margin-left: 250px;
+background-color: #FDFDFD;
+}
+
+#allVocabsText {
+overflow: scroll;
+}
+     
+#nav {
+float: left;
+width: 249px;
+height: 945px;
+background-color: #E0E0F8;
+border-right: solid 1px #190202;
+}
+
+#navControls {
+margin-top:100px;
+}
+
+#navControls input {
+height: 2.5em;
+width: 175px;
+padding: 0.5em;
+margin: 15px 36px;
+background-color: #F5F5F5;
+border-bottom: solid 1px #A9A9F5;
+border-right: solid 1px #A9A9F5;
+}
+
+#navControls select {
+width: 175px;
+margin: 0 36px 15px 36px;
+background-color: #F5F5F5;
+border-bottom: solid 2px #A9A9F5;
+border-right: solid 2px #A9A9F5;
+} 
+
+#navControls label{
+padding: 0px 36px 15px 36px;
+display: block;
+font-size: 0.9em;
+}
+
+#vocabName{
+width: 750px;
+height: 75px;
+margin-left: 250px;
+background-color: #FDFDFD;
+}
+
+#vocabName h2 {
+font-family: Arial;
+margin-left: 65px;
+padding-top: 1.5em;
+}
+
+#allVocabsText p, b{
+font-family: Arial;
+margin-left: 65px;
+}
+
+#allVocabsText b{
+padding-top: 0.6em;
+}
+
+#allVocabsText p{
+padding-top: 0.3em;
+}
+
